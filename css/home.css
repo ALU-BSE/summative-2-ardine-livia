@@ -1,0 +1,147 @@
+:root {
+    --hero-background: url('/images/modern_building_with_spire.png');
+    --hero-title-font-weight: bold;
+    --hero-desc-font-style: italic;
+    --recent-actions-heading-align: center;
+    --recent-actions-heading-font-weight: bolder;
+    --recent-actions-heading-font-size: 25px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section {
+   background-image: var(--hero-background);
+}
+  
+.hero-section .hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items:first baseline;
+  padding:10%
+}
+
+.hero-content {
+    color: white;
+}
+
+.hero-section .hero-content .hero-title {
+    font-size: 30px;
+  font-weight: var(--hero-title-font-weight);
+}
+  
+.hero-section .hero-content .hero-desc {
+  font-style: var(--hero-desc-font-style);
+}
+  
+.recent-h3 {
+  text-align: var(--recent-actions-heading-align);
+  font-weight: var(--recent-actions-heading-font-weight);
+  font-size: var(--recent-actions-heading-font-size);
+  padding: 0;
+}
+
+.recent-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.recent-actions .recent {
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recent .recent-new {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.recent .recent-new .recent-new-content {
+    gap: 10px;
+}
+.recent .recent-new .recent-new-title {
+    font-size: 18px;
+}
+
+.recent-actions .more {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.recent-new .recent-new-image .r-n-i{
+    height: 150px;
+    width: 250px;
+}
+
+
+@media (max-width: 800px) {
+    .recent-actions {
+        display: block;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media (max-width:600px) {
+    .recent-actions{
+        padding: 10%;
+    }
+    .recent-new {
+        display: block;
+        flex-wrap: wrap;
+        max-width: auto;
+
+    }
+}
+
+.more-rectangle {
+    border: 3px solid rgba(250, 210, 1, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 280px;
+}
+
+.more-cards {
+    background-image: linear-gradient(to bottom right, white, rgba(250, 210, 1, 0.8), #ffffff);
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 0px;
+    max-width: 300px;
+}
+
+.more-cards-news {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 1px solid black;
+}
+
+.more-cards-service {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 1px solid black;
+}
+
+.more-cards-faq {
+    text-align: center;
+    padding: 40px;
+}
+
+
+button {
+    background-color: rgba(32, 96, 61, 1);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: auto;
+    stroke: none;
+
+}

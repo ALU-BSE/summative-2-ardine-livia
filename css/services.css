@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url(/images/modern_building_with_spire.png);
+ }
+   
+ .hero-section .hero-container {
+   display: flex;
+   flex-direction: column;
+   align-items:first baseline;
+   padding:10%
+ }
+ 
+ .hero-content {
+     color: white;
+ }
+ 
+ .hero-section .hero-content .hero-title {
+     font-size: 30px;
+   font-weight: var(--hero-title-font-weight);
+ }
+   
+ .hero-section .hero-content .hero-desc {
+   font-style: var(--hero-desc-font-style);
+ }
+   
