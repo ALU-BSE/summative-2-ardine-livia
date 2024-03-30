@@ -54,6 +54,10 @@
 
 /* Home page style*/
 
+.hero-section {
+    padding: 7%;
+}
+
 .clk {
     background-color:  rgba(32, 96, 61, 1);
     border: none;
@@ -61,4 +65,19 @@
 
 .clk:hover {
     background-color: rgba(0, 163, 224, 1);
+}
+
+@media (max-width:900px) {
+  .col-lg-3 {
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+}
+
+.erc {
+    flex-direction: row;
+}
+
+.home {
+    background-image: linear-gradient(to bottom,  rgba(250, 210, 1, 0.7), rgba(250, 210, 1, 0.4),  rgba(250, 210, 1, 0.5));
 }
