@@ -4,101 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
-    <link rel="stylesheet" href="/css/faqs.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/custom.css"> <!-- Your custom CSS file -->
 </head>
 <body>
-    <header id="header" class="headroom">
-        <div class="header-container">
-            <div class="logo">
-                <h3 style="float:left">Gasabo District</h3>
-            </div>
-            <div class="search" style="padding: 10px">
-                <input type="text" value="Search here" style="padding:10px; border-radius: 50px; text-align:center; color: gray">
-            </div>
-            <div class="language" style="padding: 18px">
-                <input type="dropdown" value="English" style="">
-            </div>
-        </div>
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-content">
-                    <div class="nav-links"><a href="home.html" class="links">OVERVIEW</a></div>
-                    <div class="nav-links"><a href="sectors.html" class="links">SECTORS</a></div>
-                    <div class="nav-links"><a href="news.html" class="links">NEWS</a></div>
-                    <div class="nav-links"><a href="services.html" class="links">SERVICES</a></div>
-                    <div class="nav-links"><a href="contact.html" class="links">CONTACTS</a></div>
-                    <div class="nav-links"><a href="faq.html" class="links-home">FAQ</a></div>
-                    
-                   
-                </div>
-            </div>
+    <header class="bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div class="container">
+            <a class="navbar-brand" href="#">Gasabo District</a>
+            <form class="d-flex ms-auto">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <select class="form-select">
+                <option value="en">English</option>
+              </select>
+            </form>
+          </div>
         </nav>
-    </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div class="container">
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">OVERVIEW</a>
+                <a class="nav-link" href="sectors.html">SECTORS</a>
+                <a class="nav-link" href="news.html">NEWS</a>
+                <a class="nav-link" href="services.html">SERVICES</a>
+                <a class="nav-link" href="contact.html">CONTACTS</a>
+                <a class="nav-link active" href="faq.html">FAQ</a>
+              </div>
+          </div>
+        </nav>
+      </header>
 
     <main>
-
-        <div class="main"></div>
-      <div class="container">
-          <div class="content">
-            <div class="title">FAQs</div>
-            <div class="description">Have questions!? Here you will find the answers most valued by our partners along with access to step-by-step instructions and support.</div>
-          </div>
-        </div></br>
-  
-  
-        <div class="div-container">
-          <div class="header">Frequently Asked Questions</div>
-        </div>
-      </br>
-  
-        <div class="ls-container">
-          <div class="text">1. What are the boundaries of our district?</div>
-          <div class="text">2. How can I find information about local schools within the district?</div>
-          <div class="text">3. What services does the district offer for residents and businesses?</div>
-          <div class="text">4. Where can I access public transportation within the district?</div>
-          <div class="text">5. How do I report issues or concerns related to public infrastructure, such as roads or parks?</div>
-          <div class="text">6. What events and community activities are happening in the district?</div>
-          <div class="text">7. Are there any upcoming construction projects that may affect traffic or local services?</div>
-          <div class="text">8. Where can I find information about waste disposal and recycling services in the district?</div>
-        </div> </br>
-  
-        <div class="costum">
-          <img src="https://via.placeholder.com/300x189" />
-          <div>
-          <div>Friday 02 February 2024</div>
-          <div>Chinese medical team action </div>
-          <div>Chinese medical team donates medical supplies to local hospital in Rwanda</div>
-          </div>
-          </div>
-      
-      <div class="linear">
-              
-              <div>
-              <div>Friday 02 February 2024</div>
-              <div>Empowering Teenage Mothers </div>
-              <div>Gasabo District  join forces with parterns  to combat Gender-Based Violence and promote self-reliance</div>
-              </div>
-              <img src="https://via.placeholder.com/300x189" />
-              </div>   
         
-            </main>
+    </main>
 
-    <footer>
-        <div class="footer-container">
-            <div class="footer-content">
-                <div class="footer-content-info">
-                    <h3>Gasabo District</h3>
-                    <h5><b>Ask Us Anything</b> <br>Email : gasabodistrict@ruand<br>Phone Number: 1560(Free)<br>Social Media: Facebook X(Twitter) Instagram</h5>
-                </div>
-                <div class="footer-content-map" style="float:left">
-                    <img alt="map" src="images/map_with_location_pin.png" style="height: 200px">
-                </div>
-            </div>
-
+<!-- Footer -->
+<footer class="bg-primary text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Gasabo District</h3>
+          <p>Ask Us Anything<br>Email: gasabodistrict@ruand<br>Phone Number: 1560 (Free)<br>Social Media: Facebook, Twitter, Instagram</p>
         </div>
-    </footer>
+        <div class="col-md-6">
+          <img src="/images/map_with_location_pin.png" alt="Map" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!-- Bootstrap JavaScript (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
