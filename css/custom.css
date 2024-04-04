@@ -81,3 +81,9 @@
 .home {
     background-image: linear-gradient(to bottom,  rgba(250, 210, 1, 0.7), rgba(250, 210, 1, 0.4),  rgba(250, 210, 1, 0.5));
 }
+
+/* News page style*/
+
+.bck {
+    background-color: rgba(32, 96, 61, 1) !important;
+}
