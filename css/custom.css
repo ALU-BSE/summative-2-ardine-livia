@@ -86,4 +86,5 @@
 
 .bck {
     background-color: rgba(32, 96, 61, 1) !important;
+    z-index: 1;
 }
